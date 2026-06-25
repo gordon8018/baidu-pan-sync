@@ -1,0 +1,18 @@
+[
+  {
+    "path": "/daily/stocks",
+    "isdir": 1,
+    "size": 0,
+    "server_mtime": 1782143000,
+    "fs_id": "folder-1"
+  },
+  {
+    "path": "/daily/stocks/2026-06-22/a.csv",
+    "isdir": 0,
+    "size": 10,
+    "server_mtime": 1782144000,
+    "md5": "abc",
+    "fs_id": "1001"
+  }
+]
+

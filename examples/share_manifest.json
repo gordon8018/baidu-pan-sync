@@ -1,0 +1,27 @@
+[
+  {
+    "subscription_id": "source_a",
+    "share_path": "/daily/stocks/2026-06-22/a.csv",
+    "size": 10,
+    "mtime": 1782144000,
+    "md5": "abc",
+    "fs_id": "1001"
+  },
+  {
+    "subscription_id": "source_b",
+    "share_path": "/2026-06-22/full.parquet",
+    "size": 20,
+    "mtime": 1782144000,
+    "md5": "def",
+    "fs_id": "2001"
+  },
+  {
+    "subscription_id": "source_c",
+    "share_path": "/incremental/reports/2026-06-22/report.json",
+    "size": 30,
+    "mtime": 1782144000,
+    "md5": "ghi",
+    "fs_id": "3001"
+  }
+]
+

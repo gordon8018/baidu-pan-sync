@@ -1,0 +1,16 @@
+state_db: state.sqlite
+subscriptions:
+  - id: st_stocks
+    share_url: https://pan.baidu.com/s/1p5mVdIkCqg7ibniyyoJGQA?pwd=qfr2
+    baseline_before: 2026-06-20
+    remote_transfer_root: /auto-sync/st_stocks
+    mappings:
+      - share_path: /
+        local_dir: D:/workspace/data/st_stocks
+  - id: industry_concept_boards
+    share_url: https://pan.baidu.com/s/1nKn_vjJv_P5eLG-ra1Eb5w?pwd=jjye
+    baseline_before: 2026-06-20
+    remote_transfer_root: /auto-sync/industry_concept_boards
+    mappings:
+      - share_path: /
+        local_dir: D:/workspace/data/industry_concept_boards
