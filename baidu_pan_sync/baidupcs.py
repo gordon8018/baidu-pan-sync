@@ -158,7 +158,7 @@ class BaiduPcsGo:
         return None
 
     def ensure_remote_dir(self, remote_path: str) -> None:
-        self.run("mkdir", remote_path)
+        self.run("mkdir", "-p", remote_path)
 
     def transfer_share(self, url: str, passcode: str, remote_transfer_root: str) -> None:
         self.ensure_remote_dir(remote_transfer_root)
